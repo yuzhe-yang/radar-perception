@@ -296,7 +296,7 @@ As manual annotation is too expensive, our method can significantly reduce the c
 
         - Data augmentation and ground truth refinement
 
-## Conclusion
+## Future work
 
 I will also leave some open question for future thinking and research:
 
