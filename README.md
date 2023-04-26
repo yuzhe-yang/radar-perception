@@ -296,6 +296,28 @@ As manual annotation is too expensive, our method can significantly reduce the c
 
         - Data augmentation and ground truth refinement
 
+## Conclusion
+
+I will also leave some open question for future thinking and research:
+
+- In DSP level, how to retain more information to downstream processing?
+
+    - Range-Doppler-Angle image is dense, lift to 3D point cloud directly is an option
+
+- In perception level, how to reconstruct the 3D surrounding environment efficiently?
+
+- How to better transform the disadvantage of inadequate accuracy into the advantage of good generalization?
+
+- What is the best way to represent the unknown obstacle?
+
+- How to fuse the 4D radar with other sensors especially camera?
+
+    - The pure vision system data closed-loop are very expensive，Lidar is expensive and can not work in bad weather, and detect range is missmatched with vision
+
+    - 4D Radar with camera is a good choice, but how to fuse them efficiently?
+
+Compared to traditional radar, 4D radar is in a completely different league in terms of algorithms and functionalities. How to make full use of the 4D radar's ability to perceive the surrounding environment is a very interesting topic. We hope that our work can provide some inspiration for the future development of 4D radar.
+
 
 ## Reference
 
